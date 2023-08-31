@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\APM01-041\\Documents\\stk-Api\\Segurity\\Segurity.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\APM01-041\\Documents\\stk-Api\\Aplication\\Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Aplication\\Aplication.csproj",
+        "projectName": "Aplication",
+        "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Aplication\\Aplication.csproj",
+        "packagesPath": "C:\\Users\\APM01-041\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APM01-041\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\Dominio.csproj"
+              },
+              "c:\\Users\\APM01-041\\Documents\\stk-Api\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Persistencia\\Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\APM01-041\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APM01-041\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\APM01-041\\Documents\\stk-Api\\Persistencia\\Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Persistencia\\Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\APM01-041\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APM01-041\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\APM01-041\\Documents\\stk-Api\\Segurity\\Segurity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Segurity\\Segurity.csproj",
+        "projectName": "Segurity",
+        "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Segurity\\Segurity.csproj",
+        "packagesPath": "C:\\Users\\APM01-041\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Segurity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\APM01-041\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\APM01-041\\Documents\\stk-Api\\Aplication\\Aplication.csproj": {
+                "projectPath": "c:\\Users\\APM01-041\\Documents\\stk-Api\\Aplication\\Aplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
